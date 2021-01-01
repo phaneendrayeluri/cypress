@@ -1,12 +1,13 @@
 {
   "name": "cypress",
   "version": "1.0.0",
-  "description": "",
+  "description": "learning cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
-  "author": "",
+  "author": "SPY619",
   "license": "ISC",
   "dependencies": {
     "cypress": "^6.2.0",
