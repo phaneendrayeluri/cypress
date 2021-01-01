@@ -31,4 +31,4 @@ jobs:
       - name: Install
         run: npm install
       - name: Test
-        run: npm run cy:run
+        run: npm run cy:run --record --key ${{ secrets.CYPRESSDASHBOARDKEY }}
