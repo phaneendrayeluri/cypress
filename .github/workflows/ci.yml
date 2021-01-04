@@ -34,3 +34,7 @@ jobs:
         run: npm install
       - name: Test
         run: npx cypress run
+      - uses: actions/upload-artifact@v2
+        with: 
+          name: test-video
+          path: /home/runner/work/cypress/cypress/cypress/videos/powerblock.spec.js.mp4
